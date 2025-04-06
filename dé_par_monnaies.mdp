@@ -1,0 +1,15 @@
+States I, S1, S2, S3, S4, S5, S6, etat1, etat2, etat3, etat4, etat5, etat6;
+Actions None;
+I -> 5:S1 + 5:S2;
+S1 -> 5:S3 + 5:S4;
+S2 -> 5:S5 + 5:S6;
+S3 -> 5:S1 + 5:etat1;
+S4 -> 5:etat2 + 5:etat3;
+S5 -> 5:etat4 + 5:etat5;
+S6 -> 5:S2 + 5:etat6;
+etat1 -> 10:etat1;
+etat2 -> 10:etat2;
+etat3 -> 10:etat3;
+etat4 -> 10:etat4;
+etat5 -> 10:etat5;
+etat6 -> 10:etat6;

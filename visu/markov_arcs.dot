@@ -1,0 +1,16 @@
+digraph {
+S0;
+S1;
+S2;
+S1_a [shape=square];
+S1_b [shape=square];
+S0 -> S1 [key=0, weight=0.8, label="∅ (0.80)"];
+S0 -> S2 [key=0, weight=0.2, label="∅ (0.20)"];
+S1 -> S1_a [key=0, weight=1.0, label=a];
+S1 -> S1_b [key=0, weight=1.0, label=b];
+S2 -> S2 [key=0, weight=1.0, label="∅ (1.00)"];
+S1_a -> S0 [key=0, weight=0.2, label=0.20];
+S1_a -> S2 [key=0, weight=0.8, label=0.80];
+S1_b -> S2 [key=0, weight=0.7, label=0.70];
+S1_b -> S1 [key=0, weight=0.3, label=0.30];
+}

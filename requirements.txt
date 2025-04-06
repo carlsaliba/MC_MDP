@@ -1,0 +1,36 @@
+antlr4-python3-runtime==4.13.2
+Bottleneck @ file:///croot/bottleneck_1731058641041/work
+clarabel @ file:///home/conda/feedstock_root/build_artifacts/clarabel_1738591665087/work
+contourpy @ file:///home/conda/feedstock_root/build_artifacts/contourpy_1731428301407/work
+cvxpy @ file:///home/conda/feedstock_root/build_artifacts/cvxpy-split_1742111666238/work
+cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1733332471406/work
+fonttools @ file:///home/conda/feedstock_root/build_artifacts/fonttools_1738203702525/work
+graphviz==0.20.3
+imageio @ file:///croot/imageio_1738159938990/work
+kiwisolver @ file:///home/conda/feedstock_root/build_artifacts/kiwisolver_1736908181161/work
+matplotlib==3.10.0
+munkres==1.1.4
+networkx @ file:///croot/networkx_1737039604450/work
+numexpr @ file:///croot/numexpr_1730215937391/work
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1737331058080/work/dist/numpy-2.2.2-cp312-cp312-linux_x86_64.whl#sha256=4f351a921a8c45fdc69da2c49e7691acee0faf651eee5914b5448eaaeb019e82
+osqp @ file:///home/conda/feedstock_root/build_artifacts/osqp_1729548848609/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1733203243479/work
+pandas @ file:///croot/pandas_1732735089971/work/dist/pandas-2.2.3-cp312-cp312-linux_x86_64.whl#sha256=57b66702d418720ec8483f7c4ec7c08d41815316ad7ce09d5b7bbc34eefcfdfd
+pillow @ file:///home/conda/feedstock_root/build_artifacts/pillow_1735929693903/work
+pydot==3.0.4
+pymdptoolbox==4.0b3
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1735698276679/work
+PySide6==6.8.2
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1733215673016/work
+pytz @ file:///croot/pytz_1713974312559/work
+qdldl @ file:///home/conda/feedstock_root/build_artifacts/qdldl-python_1735891109128/work
+scipy @ file:///croot/scipy_1743153247252/work/dist/scipy-1.15.2-cp312-cp312-linux_x86_64.whl#sha256=b7f98c6d569ff6fd748140694f6a8511ccc5ab962bf2c450cd7d696d56d38f72
+scs @ file:///home/conda/feedstock_root/build_artifacts/scs_1736118737946/work
+setuptools==75.8.0
+shiboken6==6.8.2
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
+tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1732615905931/work
+ttkbootstrap==1.10.1
+tzdata @ file:///croot/python-tzdata_1690578112552/work
+unicodedata2 @ file:///home/conda/feedstock_root/build_artifacts/unicodedata2_1736692508163/work
+wheel==0.45.1
