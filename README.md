@@ -29,15 +29,7 @@ Install other packages via pip (e.g. `pymdptoolbox` is not available on conda):
 pip install pymdptoolbox imageio
 ```
 
-### 3. (Optional) Export environment
-
-To share your setup:
-
-```bash
-pip freeze > requirements.txt
-```
-
-To recreate:
+or:
 
 ```bash
 pip install -r requirements.txt
@@ -49,7 +41,7 @@ pip install -r requirements.txt
 
 | File | Description |
 |------|-------------|
-| `visu.py` | Visualization tools for MDPs and Markov Chains. Helps generate diagrams or plots of the state transitions. |
+| `visu.py` | Visualization tool for MDPs and Markov Chains. Helps generate Graph for the state transitions. |
 | `simulation.py` | Simulates the evolution of a Markov Chain over time. Also generates a **GIF animation** showing how the system's state changes. |
 | `model_checking.py` | Contains model checking techniques for **Markov Chains (MC)** including:<br>• Symbolic methods<br>• Iterative techniques<br>• Monte Carlo simulation<br>• Sequential Probability Ratio Test (SPRT) |
 | `mdp_model_checking.py` | Performs model checking specifically for **Markov Decision Processes (MDP)**. |
@@ -57,32 +49,5 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 Dependencies
 
-- `pymdptoolbox`: For MDP modeling and solving
-- `cvxpy`: Convex optimization library used in some model checking algorithms
-- `imageio`: For generating GIFs from simulation frames
-- `matplotlib`, `numpy`: General-purpose math and plotting libraries
-
----
-
-## 🚀 Usage
-
-You can run any script as:
-
-```bash
-python <script_name>.py
-```
-
-Make sure to activate the environment before you do:
-
-```bash
-conda activate mdp_env
-```
-
----
-
-## 📬 Contact
-
-If you have questions or run into issues, feel free to open an issue or reach out!
 
